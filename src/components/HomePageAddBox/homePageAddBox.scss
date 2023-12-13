@@ -1,0 +1,15 @@
+.add-main-container {
+    @apply flex flex-col justify-start items-start bg-orange-100;
+    .desc-1 {
+        @apply text-xs font-extrabold leading-10;
+    }
+    .desc-2 {
+        @apply  text-yellow-600 font-extrabold leading-10;
+    }
+    .button-div {
+        @apply pt-6;
+        button {
+         @apply bg-yellow-600 p-3 text-xs w-[135px] text-white;
+        }
+    }
+}

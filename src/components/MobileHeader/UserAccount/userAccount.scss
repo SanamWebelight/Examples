@@ -1,0 +1,11 @@
+.user-mobile-menuContainer {
+    @apply absolute right-[10px] top-[70px] w-[50px];
+    z-index: 51;
+    .user-mobile-menu {
+        background: linear-gradient(140deg, grey 25%, white 107%);
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 10px;
+        @apply flex flex-col items-center justify-center;
+    }
+}

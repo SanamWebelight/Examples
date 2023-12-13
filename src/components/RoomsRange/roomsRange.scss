@@ -1,0 +1,17 @@
+.rooms-range-main-container {
+    @apply p-5;
+    .title {
+        @apply font-extrabold text-lg;
+    }
+    .rooms-card-main {
+        @apply flex gap-10 justify-center mt-[30px] flex-wrap;
+        .rooms-image {
+            img {
+                @apply w-[300px] h-[350px] rounded-lg;
+            }
+        }
+        .rooms-name {
+            @apply font-medium text-base pt-5;
+        }
+    }
+}

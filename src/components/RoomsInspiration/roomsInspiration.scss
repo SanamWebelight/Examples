@@ -1,0 +1,68 @@
+.room-inspiration-main-container {
+    @apply bg-orange-200 flex gap-5 justify-center p-10 flex-wrap;
+    .room-inspiration-desc {
+        @apply flex flex-col justify-center items-start p-5;
+        .title {
+            @apply flex flex-col items-start text-3xl font-extrabold leading-10;
+        }
+        .desc {
+            @apply flex flex-col items-start text-sm leading-6;
+        }
+        .button-box {
+            @apply flex pt-5;
+            button {
+                @apply  bg-yellow-600 p-3 text-white;
+            }
+        }
+    }
+    .room-inspiration-image {
+        @apply relative;
+        img {
+            @apply w-[300px] h-[400px];
+        }
+        .room-desc{
+            @apply absolute flex bottom-[20px] left-[30px];
+            .room-title {
+                @apply bg-white p-3; 
+                .room-title-1 {
+                    @apply text-xs font-light;
+                }
+                .room-title-2 {
+                    @apply text-lg font-extrabold;
+                }
+            }
+            .next-button {
+                @apply flex justify-end flex-col;
+                button {
+                    @apply  bg-yellow-600 p-2;
+                    img {
+                        @apply w-[20px] h-[20px];
+                    }
+                }
+            }
+        }
+    }
+    .room-inspiration-image-slider {
+        @apply w-full flex gap-8;
+        .swiper-slide {
+            min-width: fit-content;
+          }
+          .swiper-button-prev,
+          .swiper-button-next {
+            @apply font-light;
+            &::after {
+              @apply text-[18px] font-bold;
+            }
+            &.swiper-button-disabled {
+              @apply hidden;
+            }
+          }
+          .swiper-button-prev {
+            @apply left-[-5px];
+          }
+          .swiper-button-next {
+            @apply right-0;
+          }
+    }
+    
+}

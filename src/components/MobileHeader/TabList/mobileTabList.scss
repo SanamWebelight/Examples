@@ -1,0 +1,14 @@
+.header-tab-popup {
+    @apply absolute right-[80px] top-[70px] w-[100px];
+    z-index: 51;
+    .btn-wrapper {
+        background: linear-gradient(140deg, grey 25%, white 107%);
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 10px;
+        .mobile-tab-list {
+            @apply flex flex-col;
+        }
+    }
+    
+}

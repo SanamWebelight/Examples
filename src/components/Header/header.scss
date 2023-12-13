@@ -1,0 +1,30 @@
+.header-container {
+    @apply h-[100px] flex p-2 justify-between items-center bg-white fixed top-[30px] w-full z-50;
+    .logo-container {
+        @apply flex;
+        .logo {
+            img {
+                @apply h-[50px] w-[100px];
+            }
+        }
+        .logo-title {
+            @apply flex items-center text-4xl font-extrabold;
+        }
+        
+    }
+    .header-tab-container {
+        img {
+            @apply h-[25px] w-[25px];
+        }
+        .tab-list{
+            @apply flex items-start gap-6 text-lg;
+        }
+
+    }
+    .user-menuContainer {
+        @apply flex gap-10;
+        img {
+            @apply h-[25px] w-[25px];
+        }
+    }
+}

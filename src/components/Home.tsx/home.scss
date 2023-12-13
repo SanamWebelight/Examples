@@ -1,0 +1,16 @@
+.main-container {
+    .header-div {
+        background-image: url("../../images/room.jpg");
+        height: 100vh;
+        overflow: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        .add-div {
+            @apply absolute;
+        }
+    }
+    .main-div {
+       
+    }
+}
